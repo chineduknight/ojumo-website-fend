@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 import { Global } from '@emotion/core'
 import { createBrowserHistory } from "history";
 import { Router, BrowserRouter as Route, Switch} from 'react-router-dom';
-import RESET_STYLES from './commonStyles/__reset_styles'
-import LandingPage from './components/layouts/landingPage';
-import ProgrammePage from './components/layouts/pragrammePage';
-import ArticlePage from './components/layouts/articlesPage';
+import RESET_STYLES from './settings/__reset_styles'
+import LandingPage from './components/pages/LandingPage';
+import ProgrammePage from './components/pages/ProgrammePage';
+import ArticlePage from './components/pages/ArticlesPage';
 const customHistory = createBrowserHistory();
 
 export default  function App(){

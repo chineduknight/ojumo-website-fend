@@ -1,5 +1,4 @@
 import { css } from '@emotion/core';
-import {L} from './__fonts'
 // Reset styles gotten from https://bitsofco.de/a-look-at-css-resets-in-2018/
 export default css`
     html, body, div, span, applet, object, iframe,
