@@ -24,7 +24,7 @@ Header.Nav = styled.nav`
    
     padding: 0;
     display: flex;
-   
+    width: 78%;
     
     .header-area{
         width:40%;
@@ -39,6 +39,7 @@ Header.Nav = styled.nav`
     align-items:baseline;
     
      @media only screen and (max-width: ${__devices.small}){
+        width: auto;
        .header-area{
         width:auto;
        }
