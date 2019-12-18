@@ -44,7 +44,7 @@ OjumoBriefInfo.Image = styled.div`
 
 OjumoBriefInfo.Body = styled.div`
     margin-top: 10%;
-    margin-left: 21.7%;
+    margin-left: 15.9%;
     h1{
         font-family: Montserrat;
         font-style: normal;
