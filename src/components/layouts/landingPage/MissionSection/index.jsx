@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import HeadingText from '../../../atoms/HeadingText';
 import Paragraph from '../../../atoms/Paragraph';
+import Image from '../../../atoms/Image';
 import HowWeAchieveCards from './HowWeAchieveCards'
 import __devices from '../../../../settings/__devices';
 import {BRAND_WHITE} from '../../../../settings/__colors';
@@ -24,7 +25,11 @@ export default function MissionSection(){
                         Pellentesque rutrum pulvinar sem, at interdum nulla sollicitudin et.
                     </Paragraph>
                 </MissionSection.MissionText>
-                <MissionSection.Image/>
+                <Image backgroundURL={BOY_WITH_FACECAP_URL}
+                    imgWidth="60%"
+                    imgHeight="70vh"
+
+                />
             </MissionSection.MissionStatement>
 
             <div id="triangle">
@@ -36,7 +41,6 @@ export default function MissionSection(){
                 </HeadingText>
                 <HowWeAchieveCards/>
             </MissionSection.HowWeAchieve>
-            <div>Here we go</div>
         </MissionSection.Wrapper>
     )
 
@@ -101,13 +105,3 @@ MissionSection.Wrapper = styled.div`
     }
 `;
 
-MissionSection.Image = styled.div`
-   background: url(${BOY_WITH_FACECAP_URL}) no-repeat;
-   background-position: center center;
-   background-size: cover;
-   width: 60%;
-   height: 70vh;
-   @media only screen and (max-width: ${__devices.small}){
-        display: none;
-   }
-`;

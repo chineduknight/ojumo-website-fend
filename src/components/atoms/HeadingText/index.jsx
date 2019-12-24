@@ -9,13 +9,14 @@ import {BRAND_PRIMARY_BLUE,BRAND_PURPLE} from '../../../settings/__colors';
 export default  function HeadingText(
     {
         children,
-        align='left',
+        align='inherit',
         responsiveAlign,
         color,
+        fontSize
     }){
     return (
 
-        < HeadingText.Text color={color} align={align} responsiveAlign={responsiveAlign}>
+        < HeadingText.Text fontSize={fontSize} color={color} align={align} responsiveAlign={responsiveAlign}>
             {children}
         </HeadingText.Text>
     )
@@ -24,7 +25,7 @@ export default  function HeadingText(
 
 
 HeadingText.Text = styled.h1`
-    font-size: 1.5em;
+    font-size: ${props=> props.fontSize || '1.5em'} ;
     font-family: Montserrat;
     letter-spacing: 0.1em;
     color: ${props=> __colors[props.color] || __colors.BRAND_PURPLE};

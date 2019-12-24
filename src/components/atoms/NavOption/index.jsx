@@ -4,10 +4,10 @@ import __fonts from '../../../settings/__font_sizes'
 import __devices from '../../../settings/__devices';
 import {BRAND_WHITE} from '../../../settings/__colors';
 
-export default function NavOption({href, children}){
+export default function NavOption({href, children, fontSize}){
     return (
 
-        <NavOption.Link href={href}>
+        <NavOption.Link href={href} fontSize={fontSize}>
             {children}
         </NavOption.Link>
     )
@@ -18,7 +18,7 @@ NavOption.Link = styled.a`
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: ${__fonts.small};
+    font-size: ${props=> __fonts[props.fontSize] || props.fontSize || __fonts.small};
     line-height: 16px;
     display: inline-block;
     
