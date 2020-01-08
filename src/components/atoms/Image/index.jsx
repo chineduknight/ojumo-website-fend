@@ -6,7 +6,7 @@ export default function Image(
     {imgWidth, imgHeight, children,
         backgroundURL, showInSmallScreen,
         responsiveWidth,  responsiveHeight,
-        imgMargin
+        imgMargin, backgroundSize
     }){
 
     return (
@@ -17,8 +17,10 @@ export default function Image(
             imgMargin={imgMargin}
             responsiveHeight={responsiveHeight}
             showInSmallScreen={showInSmallScreen}
+
         >
              <Image.Container
+                 backgroundSize={backgroundSize}
                          url={backgroundURL}>
             {children}
         </Image.Container>
@@ -42,9 +44,8 @@ Image.Wrapper = styled.div`
 `;
 Image.Container = styled.div`
         background-position: center center;
-        background-size: cover;
         background: url(${props=> props.url}) no-repeat;
-        background-size: 100% 100%;
+        background-size: ${props=> props.backgroundSize || 'cover'};
         background-position: center center;
         height: 100%;
         width: 100%;

@@ -94,7 +94,9 @@ OjumoBriefInfo.Wrapper = styled.div`
     background:rgba(46, 77, 113, 0.61);
     height:94.7%;
     padding: 1.3em 1em;
-    
+    @media only screen and (max-width: ${__devices.small}) and (max-height: ${__devices.large}){
+        padding: 1.3em 0;
+    }
 `;
 
 
