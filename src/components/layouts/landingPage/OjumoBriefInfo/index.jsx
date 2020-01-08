@@ -13,7 +13,7 @@ export default function OjumoBriefInfo(){
                 <Header/>
                 <OjumoBriefInfo.Body>
                     <h1>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet,  consectetur adipiscing elit.
                     </h1>
                     <p>Vivamus iaculis ante volutpat purus commodo consectetur. Nullam tortor elit, tincidunt eleifend nulla nec, consectetur luctus dui. Pellentesque rutrum pulvinar sem, at interdum nulla sollicitudin et. Fusce pharetra vel mauris id viverra.
                         Sed ut suscipit leo. Aenean eget dui semper, pulvinar orci eget, finibus mi.</p>
