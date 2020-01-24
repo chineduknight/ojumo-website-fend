@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import HeadingText from '../../../atoms/HeadingText';
-import Paragraph from '../../../atoms/Paragraph';
-import Image from '../../../atoms/Image';
+import HeadingText from 'Atoms/HeadingText';
+import Paragraph from 'Atoms/Paragraph';
+import Image from 'Atoms/Image';
 import HowWeAchieveCards from './HowWeAchieveCards'
 import __devices from '../../../../settings/__devices';
 import {BRAND_WHITE} from '../../../../settings/__colors';
@@ -65,7 +65,7 @@ MissionSection.MissionStatement = styled.div`
 
 MissionSection.MissionText = styled.div`
     width: 40%;
-    margin-left: 17%;
+    margin-left: 11%;
     padding-top: 6%;
 
     > *{

@@ -35,3 +35,17 @@ HeadingText.Text = styled.h1`
         text-align:${props=> props.responsiveAlign || props.align };
     }
 `;
+
+
+// h1{
+//         font-family: Montserrat;
+//         font-style: normal;
+//         font-weight: bold;
+//         font-size: ${__fontSizes.normal};
+//         line-height: 20px;
+//         display: flex;
+//         align-items: center;
+//         color: ${__colors.BRAND_PRIMARY_BLUE};
+//         margin-top: 5%;
+//         width: 80%;
+//     }

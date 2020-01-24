@@ -1,4 +1,4 @@
-import HeadingText from "../../../atoms/HeadingText";
+import HeadingText from "Atoms/HeadingText";
 import React from "react";
 import styled from "@emotion/styled";
 import __devices from "../../../../settings/__devices";
