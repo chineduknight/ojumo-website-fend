@@ -52,8 +52,8 @@ export default function HowWeAchieveCards(){
 HowWeAchieveCards.Wrapper = styled.div`
     display:flex;
     justify-content: space-around;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 9%;
     margin-top: 5%;
     @media only screen and (max-width: ${__devices.small}){
         display:block;

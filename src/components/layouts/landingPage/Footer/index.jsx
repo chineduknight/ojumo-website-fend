@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Paragraph from '../../../atoms/Paragraph';
-import Image from '../../../atoms/Image';
+import Paragraph from 'Atoms/Paragraph';
+import Image from 'Atoms/Image';
 import FooterSection from './FooterSection';
 import FooterLinks from './FooterLinks';
 import __colors from '../../../../settings/__colors';
@@ -81,11 +81,11 @@ Footer.Container = styled.div`
       height: auto;
       display: flex;
       align-items: space-between;
-      width: 66%;
+      width: 72%;
       .res-only{
             display:none;
       }
-      padding: 4% 17%;
+      padding: 4% 17% 4% 11%;
       .icon-list > div{
             color: white;
             display: flex;

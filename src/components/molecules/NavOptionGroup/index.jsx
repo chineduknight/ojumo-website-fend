@@ -21,7 +21,7 @@ export default function NavOptionGroup({width}){
     ];
 
     return (
-        <NavOptionGroup.Wrapper wrapperWidth={width}>
+        <NavOptionGroup.Wrapper>
             <label htmlFor="toggler">&#9776;</label>
             <input type="checkbox"   id="toggler"/>
             <div className="all-links">
@@ -43,8 +43,7 @@ export default function NavOptionGroup({width}){
 }
 
 NavOptionGroup.Wrapper = styled.div`
-     width:${props=>props.wrapperWidth? props.wrapperWidth: '100%'};
-     display:flex;
+     margin-left: 40%;
      label{
         font-size: 2em;
         color: ${BRAND_WHITE};

@@ -1,4 +1,4 @@
-import NavOption from "../../../atoms/NavOption";
+import NavOption from "Atoms/NavOption";
 import React from "react";
 
 
