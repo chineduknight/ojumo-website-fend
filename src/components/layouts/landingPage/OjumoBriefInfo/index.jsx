@@ -15,8 +15,10 @@ export default function OjumoBriefInfo(){
                     <h1>
                         Lorem ipsum dolor sit amet,  consectetur adipiscing elit.
                     </h1>
-                    <p>Vivamus iaculis ante volutpat purus commodo consectetur. Nullam tortor elit, tincidunt eleifend nulla nec, consectetur luctus dui. Pellentesque rutrum pulvinar sem, at interdum nulla sollicitudin et. Fusce pharetra vel mauris id viverra.
-                        Sed ut suscipit leo. Aenean eget dui semper, pulvinar orci eget, finibus mi.</p>
+                    <p>
+                        Ojumo aims to complement the academic, cultural and social education students
+                        receive from the tertiary institutions with a strong moral formation.
+                    </p>
                 </OjumoBriefInfo.Body>
             </OjumoBriefInfo.Wrapper>
         </OjumoBriefInfo.Image>
@@ -25,11 +27,10 @@ export default function OjumoBriefInfo(){
     )
 }
 OjumoBriefInfo.Image = styled.div`
-        background: url(https://res.cloudinary.com/maintenance-site/image/upload/v1575475798/image.jpg) no-repeat;
+        background: url(https://res.cloudinary.com/maintenance-site/image/upload/w_400/v1575475798/image.jpg) no-repeat;
         background-size: 100% 100%;
         background-position: center center;
         height: 100vh;
-        width: 100vw;
         
        @media only screen and  (max-width: ${__devices.xSmall}) and (max-height:639px){
             height: auto;
@@ -88,7 +89,7 @@ OjumoBriefInfo.Body = styled.div`
             margin-top: 25%;
     }
 
-`
+`;
 OjumoBriefInfo.Wrapper = styled.div`
     z-index: 10;
     background:rgba(46, 77, 113, 0.61);

@@ -88,7 +88,7 @@ UpcomingEvents.Events = styled.div`
         margin-right: 3%;
     }
     .card{
-        width 48%;
+        width: 48%;
         display:flex;
         margin-bottom: 4%;
         &:nth-child(2n){
@@ -144,7 +144,7 @@ UpcomingEvents.Events = styled.div`
             display:none;
         }
         .card{
-            width 90%;
+            width: 90%;
             margin-bottom: 4%;
             justify-content: center;
             align-items: center;
@@ -153,7 +153,7 @@ UpcomingEvents.Events = styled.div`
             }
             padding-left: 10%;
     }
-    
+ }
 `;
 
 UpcomingEvents.Wrapper = styled.div`

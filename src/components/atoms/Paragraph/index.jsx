@@ -26,7 +26,7 @@ export default  function Paragraph(
 }
 
 Paragraph.Text = styled.p`
-    width:${props=> props.width || 0};
+    width:${props=> props.width || 'inherit'};
     font-family: Lato;
     font-style: normal;
     line-height: 19px;
