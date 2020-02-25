@@ -18,11 +18,9 @@ export default function Footer(){
 
                 <div>
                     <Paragraph color="BRAND_WHITE" width="auto" fontSize="xSmall">
-                        Vivamus iaculis ante volutpat purus commodo consectetur. Nullam tortor elit, tincidunt eleifend
-                        nulla nec,
-                        consectetur luctus dui. Pellentesque rutrum pulvinar sem, at interdum nulla sollicitudin
-                        et. Fusce pharetra vel mauris id viverra. Sed ut suscipit leo. Aenean eget dui semper,
-                        pulvinar orci eget, finibus mi.
+                        Ojumo is project of Akoka Study Center Yaba that aims to complement the academic, cultural and
+                        social education students  receive from the tertiary institutions with a strong moral formation.
+
                     </Paragraph>
                 </div>
                 <div className="non-res-only">

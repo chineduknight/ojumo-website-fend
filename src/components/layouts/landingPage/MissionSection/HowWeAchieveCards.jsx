@@ -13,7 +13,8 @@ export default function HowWeAchieveCards(){
             heading: "GET TOGETHER",
             paragraphText:`
                      One of the key problems that youths have today is a source of inspiration.
-                     We help bridge this gap by organising get-togethers with giants from several fields.
+                     We help solve this by organising formal and informal meet ups with giants from several fields
+                     to boost personal and professional development of the boys.
             `
         },
          {

@@ -7,7 +7,7 @@ import HowWeAchieveCards from './HowWeAchieveCards'
 import __devices from '../../../../settings/__devices';
 import {BRAND_WHITE} from '../../../../settings/__colors';
 
-const BOY_WITH_FACECAP_URL ='https://res.cloudinary.com/maintenance-site/image/upload/v1575914715/some.jpg';
+const BOY_WITH_FACECAP_URL ='https://res.cloudinary.com/maintenance-site/image/upload/w_400/v1575914715/some.jpg';
 export default function MissionSection(){
     return (
         <MissionSection.Wrapper>
@@ -15,9 +15,8 @@ export default function MissionSection(){
                 <MissionSection.MissionText>
                     <HeadingText responsiveAlign="center">Our Mission</HeadingText>
                     <Paragraph width="70%" >
-                        Vivamus iaculis ante volutpat purus commodo consectetur. Nullam tortor elit, tincidunt eleifend
-                        nulla nec, consectetur luctus dui.
-                        Pellentesque rutrum pulvinar sem, at interdum nulla sollicitudin et.
+                        To equip youth with life skills, moral principles and foster a culture of study, hard work and
+                        continuous improvement as a means of achieving personal fulfillment.
                     </Paragraph>
                     <Paragraph width="70%">
                         Vivamus iaculis ante volutpat purus commodo consectetur. Nullam tortor elit, tincidunt eleifend
@@ -86,14 +85,13 @@ MissionSection.MissionText = styled.div`
 
 MissionSection.Wrapper = styled.div`
     background-color: #FFF;
-    width: 100vw;
     min-height: auto;
 
     #triangle {
         width: 0;
         height: 0;
         border-bottom: 100px solid ${BRAND_WHITE};
-        border-left: 100vw solid transparent;
+        border-left: 98.9vw solid transparent;
         position: relative;
         margin-top: -4em;
     }
