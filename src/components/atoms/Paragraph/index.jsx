@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import __fonts from '../../../settings/__font_sizes';
 import __devices from '../../../settings/__devices';
-import __colors, {BRAND_WHITE} from '../../../settings/__colors';
+import __colors from '../../../settings/__colors';
 
 
 export default  function Paragraph(
@@ -10,7 +10,7 @@ export default  function Paragraph(
         width, responsiveWidth, responsiveMargin, margin}
 ){
     return (
-        < Paragraph.Text
+        <Paragraph.Text
             width={width}
             fontSize={fontSize}
             responsiveWidth={responsiveWidth}
@@ -36,6 +36,6 @@ Paragraph.Text = styled.p`
     text-align:${props=> props.align|| 'left'};
     @media only screen and (max-width: ${__devices.small}){
         width:${props=> props.responsiveWidth || '100%'};
-        margin:${props=>props.responsiveMargin || props.margin
+        margin:${props=>props.responsiveMargin || props.margin}
     }
 `;
